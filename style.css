@@ -49,7 +49,7 @@ body{
     position: fixed;
     top: 30%;
     right: 0;
-    z-index: 2;
+    z-index: 3;
 }
 
 .call{
@@ -257,4 +257,177 @@ body{
     background: url(".images/tahog.png") no-repeat;
     background-size: contain;
     background-position: center;
+}
+.advantages__block{
+    width: 28%;
+}
+.advant__image{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about{
+    margin: 20px auto;
+}
+.company{
+    margin: 50px auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.about__img{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__text{
+    width: 33%;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.about__block{
+    width: 18%;
+}
+.about__name{
+    font-size: 14px;
+    width: 85%;
+    margin: 10px 0;
+}
+.about__mail a{
+    font-size: 13px;
+    color: #4176c2;
+    text-decoration: none;
+}
+
+.brand{
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.client__block{
+    width: 15%;
+}
+
+.title__video{
+    margin: 0 auto;
+    width: 17%;
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    margin: 15px auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.video__slider{
+    margin: 40px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.map{
+    margin: 80px 0;
+
+}
+.map__background{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
+}
+.adress{
+    width: 700px;
+    height: 280px;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    z-index: 2;
+}
+
+.map__adress{
+    width: 480px;
+    height: 200px;
+    margin: 40px auto 40px 40px;
+
+}
+.title__text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+.adress__text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.footer{
+    margin: 0 auto 40px;
+}
+.footer__inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo__footer{
+    width: 15%
+}
+
+.footer__text{
+    width: 35%
+}
+.footer__word{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.footer__made{
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer__contact{
+    margin: 30px 0;
+}
+
+.contact__footer a{
+    color: #000;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-decoration: none;
+
+
+}
+
+ .icon{
+     margin-bottom: 20px;
+     max-width: 133px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+
+ }
+ /*.icon img{*/
+ /*    margin-right: 5px;*/
+ /*}*/
+.block__info{
+    width: 18%
+
+}
+
+.footer__right{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+
 }
