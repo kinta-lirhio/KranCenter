@@ -1,13 +1,11 @@
 body{
     font-family: 'Montserrat', sans-serif;
     padding: 0;
-
 }
 .container{
     max-width: 100%;
     width: 1200px;
     margin: 0 auto;
-
 }
 
 
@@ -17,15 +15,14 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
 .logo{
 
 }
 .contact{
     width: 20%;
-
-
-
 }
+
 .contact__text{
     font-size: 16px;
     font-weight: 400;
@@ -64,10 +61,7 @@ body{
 
 .passive{
     padding: 0;
-
     text-align: center;
-
-
 }
 
 .description{
@@ -97,7 +91,6 @@ body{
     font-size: 24px;
     font-weight: 300;
     color: #db0f12;
-
 }
 
 .description__h3{
@@ -112,6 +105,7 @@ body{
 .property{
     margin-top: 20px;
 }
+
 .download{
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
@@ -120,11 +114,11 @@ body{
     cursor: pointer;
     margin-left: 10px;
 }
+
 .btn{
     padding: 15px 48px;
     background-color: #3f6fb5;
     margin: 0 auto;
-
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 300;
@@ -132,20 +126,21 @@ body{
     color: #ffffff;
     cursor: pointer;
     border-radius: 5px;
-
 }
+
 .btn:hover{
     background-color: #1d335c;
     transition: 0.5s linear;
-
 }
 
 .button{
     margin-top: 60px;
 }
+
 .menu{
     background-color: #3f6fb5;
 }
+
 .menu__bottom{
     width: 100%;
     height: 80px;
@@ -153,18 +148,16 @@ body{
     display: flex;
     justify-content: space-around;
 }
+
 .menu__block{
     background-color: #3f6fb5;
     width: 20%;
     height: 80px;
     margin: 0 auto;
-
-
-
 }
+
 .menu__inner{
     width: 190px;
-
     margin: 30px auto;
     text-align: center;
 
@@ -177,8 +170,6 @@ body{
     text-decoration: none;
     color: #ffffff;
     cursor: pointer;
-
-
 }
 
 .menu__block:hover{
